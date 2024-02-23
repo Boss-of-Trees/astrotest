@@ -26,3 +26,14 @@ const { pageTitle } = Astro.props;
 		</script>
 	</body>
 </html>
+
+
+<!-- This is how it doesn't work. In order to follow along with the tutorial
+	and being able to play around a little, I went back to the working version.
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Home Page";
+---
+<BaseLayout>
+	<h2>My awesome blog subtitle</h2>
+</BaseLayout>-->
